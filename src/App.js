@@ -12,21 +12,6 @@ const useStyles = createUseStyles({
 const App = () => {
   const classes = useStyles();
 
-  // const handleChangeContacts = newContact => {
-  //   return contacts.find(contact => contact.name === newContact.name)
-  //     ? alert(`${newContact.name} is already in contacts`)
-  //     : setContacts(prevState => [...prevState, newContact]);
-  // };
-
-  // useEffect(() => {
-  //   const data = JSON.parse(localStorage.getItem('contacts'));
-  //   setContacts(data);
-  // }, []);
-
-  // useEffect(() => {
-  //   localStorage.setItem('contacts', JSON.stringify(contacts));
-  // }, [contacts]);
-
   return (
     <div className={classes.container}>
       <h1>Phonebook</h1>
